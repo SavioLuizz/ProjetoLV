@@ -1,5 +1,5 @@
 function login() {
-    window.location.href= "Home/home.html"
+    window.location.href= "../Home/home.html";
     console.log("Busca")
     
 }
