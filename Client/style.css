@@ -71,13 +71,6 @@ a {
   display: flex;
 }
 
-.campo-input {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  align-items: center;
-
-}
 
 .lembrar-me {
   display: flex;
@@ -89,4 +82,11 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 5px;
+}
+.campo-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
