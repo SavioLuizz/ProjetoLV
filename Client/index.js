@@ -4,17 +4,17 @@ function login() {
     
 }
 function telaConsulta() {
-    window.location.href= "../Home/consultar.html"
+    window.location.href= "../Home/consultarVeiculo.html"
     console.log("Consultar")
 
 }
 function telaCadastrarVeic() {
-    window.location.href= "../Home/veiculo.html"
+    window.location.href= "../Home/cadVeiculo.html"
     console.log("Consultar")
 
 }
 function telaCadastrarDesp() {
-    window.location.href= "../Home/despesas.html"
+    window.location.href= "../Home/cadDespesas.html"
     console.log("Consultar")
 
 }
@@ -23,4 +23,9 @@ function telaArquivar() {
     console.log("Consultar")
 
 }
-
+function consultarVeiculo(){
+    alert("Veículo não encontrado.\nPor favor,ajustar a PLACA e o RENAVAM")
+}
+function cadastrarVeiculo(){
+    alert("Veículo cadastrado com Sucesso!!!")
+}
