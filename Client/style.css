@@ -59,6 +59,13 @@ a {
   color: rgb(8, 191, 247);
   font-weight: 500;
 }
+.despesas,#despesas{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .esqueceu-senha{
   text-align: center;
   
